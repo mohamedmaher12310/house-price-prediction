@@ -58,5 +58,5 @@ final_prediction = 0.3 * lasso + 0.35 * xgboost + 0.35 * lightgbm
 
 | Metric              | Value                    |
 |---------------------|--------------------------|
-| MSE (Validation)    | _Displayed in console_   |
-| R² Score            | _Displayed in console_   |
+| MSE (Validation)    | _0.0182_   |
+| R² Score            | _0.9027_   |
