@@ -44,3 +44,19 @@ Three regression models are trained:
 Final prediction is a **weighted average**:
 ```python
 final_prediction = 0.3 * lasso + 0.35 * xgboost + 0.35 * lightgbm
+
+5. 📊 Model Evaluation
+Dataset split into training and validation sets (80/20).
+
+Evaluation metrics:
+
+MSE (Mean Squared Error)
+
+R² Score
+
+📈 Results
+Metric	Value
+MSE (Validation)	Displayed in console
+R² Score	Displayed in console
+
+(These scores help evaluate how well the blended model performs on unseen data.)
