@@ -60,3 +60,19 @@ final_prediction = 0.3 * lasso + 0.35 * xgboost + 0.35 * lightgbm
 |---------------------|--------------------------|
 | MSE (Validation)    | _Displayed in console_   |
 | R² Score            | _Displayed in console_   |
+
+### 5. 📊 Model Evaluation
+
+- Dataset split into training and validation sets (80/20).
+- Evaluation metrics:
+  - **MSE (Mean Squared Error)**
+  - **R² Score**
+
+---
+
+📈 **Results**
+
+| Metric              | Value                    |
+|---------------------|--------------------------|
+| MSE (Validation)    | _Displayed in console_   |
+| R² Score            | _Displayed in console_   |
